@@ -18,3 +18,7 @@
 - edge - 200
 - 3g - 14000
 - 4g - 3000000
+
+## Thanks
+
+The initial code for building this was inspired by this article by Ben Lakey - http://benlakey.com/2012/10/14/throttle-bandwidth-on-mac-os-x/
