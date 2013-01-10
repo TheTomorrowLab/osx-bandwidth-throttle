@@ -1,20 +1,20 @@
-Basic Usage
+# OSx Bandwidth Throttler (this will work for any *nix)
 
-Download throttle.sh.
-Make the file executable with chmod +x throttle.sh
-Run it as the admin with sudo ./throttle.sh 45
+## Basic Usage
 
-Values
+- Download throttle.sh.
+- Make the file executable with chmod +x throttle.sh
+- Run it as the admin with sudo ./throttle.sh 45
 
-Numerical values will adjust to that speed in Kbytes/s e.g. ./throttle.sh 54
-Typing stop will reset back to what it should be e.g. ./throttle.sh stop
-Typing some predefined constants will result in some throttling e.g. ./throttle.sh 3g
+## Values
 
-Constants
+- Numerical values will adjust to that speed in Kbytes/s e.g. ./throttle.sh 54
+- Typing stop will reset back to what it should be e.g. ./throttle.sh stop
+- Typing some predefined constants will result in some throttling e.g. ./throttle.sh 3g
 
-gprs - 30
-edge - 200
-3g - 14000
-4g - 3000000
+## Constants taken from here (http://www.which.co.uk/technology/phones/guides/mobile-broadband/mobile-broadband-speed-and-usage-limits/)
 
-http://www.which.co.uk/technology/phones/guides/mobile-broadband/mobile-broadband-speed-and-usage-limits/
+- gprs - 30
+- edge - 200
+- 3g - 14000
+- 4g - 3000000
