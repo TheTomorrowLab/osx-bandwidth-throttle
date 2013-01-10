@@ -5,6 +5,7 @@
 - Download throttle.sh.
 - Make the file executable with `chmod +x throttle.sh`
 - Run it as the admin with `sudo ./throttle.sh 45`
+- Turn everything off by running `sudo ./throttle.sh stop`
 
 ## Values
 
@@ -18,6 +19,10 @@
 - edge - 200
 - 3g - 14000
 - 4g - 3000000
+
+## Help!
+
+If you manage to throttle your speed but can't get it to go back to normal you should run this command: `sudo ipfw delete 1`
 
 ## Thanks
 
